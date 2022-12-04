@@ -2,13 +2,19 @@ import HeroTitleWithDarkButton from "./HeroTitleWithDarkButton";
 import ListItems from "./ListItem";
 import Project from "./Project";
 import Link from "next/link";
+import { Righteous } from "@next/font/google";
+
+const righteous = Righteous({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function Page(): JSX.Element {
   return (
     <>
       <div>
         <HeroTitleWithDarkButton text="Kunal Singh" />
-        <p className="mx-2 text-center text-xl dark:text-white">
+        <p className="mx-2 text-center text-sm dark:text-white md:text-xl">
           Hi there 👋, my name is Kunal and I&apos;m currently pursuing a degree
           in Computer Science and Engineering. I do full stack web development,
           using technologies like React, NextJS, TailwindCSS, and TypeScript.
@@ -42,14 +48,20 @@ export default function Page(): JSX.Element {
             alt="Email logo"
           />
           <Link href="/blog">
-            <p className="ml-2 text-2xl font-bold hover:text-slate-500 dark:text-white dark:hover:text-slate-300">
+            <p
+              className={`${righteous.className} ml-2 text-2xl font-bold hover:text-slate-500 dark:text-white dark:hover:text-slate-300`}
+            >
               /blog
             </p>
           </Link>
         </ul>
       </section>
       <section>
-        <p className="mx-4 text-4xl font-extrabold dark:text-white">Projects</p>
+        <p
+          className={`${righteous.className} mx-4 text-4xl font-extrabold dark:text-white`}
+        >
+          Projects
+        </p>
         <div className="my-4 flex items-center justify-center">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Project
@@ -92,7 +104,11 @@ export default function Page(): JSX.Element {
         </div>
       </section>
       <section>
-        <p className="mx-4 text-4xl font-extrabold dark:text-white">Blogs</p>
+        <p
+          className={`${righteous.className} mx-4 text-4xl font-extrabold dark:text-white`}
+        >
+          Blogs
+        </p>
       </section>
     </>
   );
