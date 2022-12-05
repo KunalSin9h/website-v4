@@ -20,9 +20,9 @@ export default function Page(): JSX.Element {
           using technologies like React, NextJS, TailwindCSS, and TypeScript.
           I&apos;m also passionate about cloud computing and databases (Backend
           in other words), and I enjoy using C++ for competitive programming and
-          Python for scripting. In my free time, I love contributing to
-          open-source software development and using Vim as my text editor of
-          choice. Thanks for reading!
+          Python for scripting.I love contributing to open-source software
+          development and using Vim as my text editor of choice. Thanks for
+          reading!
         </p>
       </div>
       <section className="mx-auto my-8 block max-w-xs space-y-3 rounded-lg bg-white from-slate-600 to-slate-800 p-6 shadow-xl ring-1 ring-slate-900/5  transition hover:rotate-6  dark:bg-gradient-to-r  dark:ring-1 dark:ring-black">
