@@ -25,7 +25,7 @@ export default function Page(): JSX.Element {
           choice. Thanks for reading!
         </p>
       </div>
-      <section className="mx-auto my-8 block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-xl ring-1 ring-slate-900/5  transition hover:rotate-6  dark:bg-[#121212] dark:ring-1 dark:ring-white ">
+      <section className="mx-auto my-8 block max-w-xs space-y-3 rounded-lg bg-white from-slate-600 to-slate-800 p-6 shadow-xl ring-1 ring-slate-900/5  transition hover:rotate-6  dark:bg-gradient-to-r  dark:ring-1 dark:ring-black">
         <ul className="flex items-center justify-center">
           <ListItems
             url="https://github.com/kunalsin9h"

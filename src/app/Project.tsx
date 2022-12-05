@@ -17,14 +17,14 @@ export default function Project({
   source?: string;
 }): JSX.Element {
   return (
-    <div className="block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-xl ring-1 ring-slate-900/5 dark:bg-[#121212] dark:ring-white">
+    <div className="block max-w-xs space-y-3 rounded-lg bg-white from-slate-600 to-slate-800 p-6 shadow-xl ring-1 ring-slate-900/5 transition dark:bg-gradient-to-r dark:ring-black">
       {banner ? (
         <Image
           src={banner}
           alt="Project banner"
           height="1000"
           width="1000"
-          className="mx-auto  ring-1 ring-white"
+          className="mx-auto  ring-1 ring-black"
         />
       ) : null}
       <div className="flex items-center">

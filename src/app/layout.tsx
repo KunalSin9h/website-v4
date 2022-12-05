@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html>
       <body
-        className={`${poppins.className} mx-auto h-screen max-w-5xl transition-all dark:bg-black`}
+        className={`${poppins.className} transition mx-auto h-screen max-w-5xl dark:bg-[#121212]`}
       >
         {children}
       </body>
