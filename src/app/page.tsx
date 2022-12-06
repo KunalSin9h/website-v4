@@ -20,31 +20,30 @@ export default function Page(): JSX.Element {
           using technologies like React, NextJS, TailwindCSS, and TypeScript.
           I&apos;m also passionate about cloud computing and databases (Backend
           in other words), and I enjoy using C++ for competitive programming and
-          Python for scripting.I love contributing to open-source software
-          development and using Vim as my text editor of choice. Thanks for
-          reading!
+          Python for scripting. I love contributing to open-source software
+          development. Thanks for reading!
         </p>
       </div>
       <section className="mx-auto my-8 block max-w-xs space-y-3 rounded-lg bg-white from-slate-600 to-slate-800 p-6 shadow-xl ring-1 ring-slate-900/5  transition hover:rotate-6  dark:bg-gradient-to-r  dark:ring-1 dark:ring-black">
         <ul className="flex items-center justify-center">
           <ListItems
             url="https://github.com/kunalsin9h"
-            src="/github.png"
+            src="/images/github.png"
             alt="GitHub logo"
           />
           <ListItems
             url="https://twitter.com/kunalsin9h"
-            src="/twitter.png"
+            src="/images/twitter.png"
             alt="Twitter logo"
           />
           <ListItems
             url="https://linkedin.com/in/kunalsin9h"
-            src="/linkedin.png"
+            src="/images/linkedin.png"
             alt="LinkedIn logo"
           />
           <ListItems
             url="mailto:kunal@kunalsin9h.dev"
-            src="/mail.png"
+            src="/images/mail.png"
             alt="Email logo"
           />
           <Link href="/blog">

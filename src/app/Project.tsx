@@ -46,7 +46,7 @@ export default function Project({
         {live ? (
           <Link href={live}>
             <Image
-              src="/world.svg"
+              src="/images/world.svg"
               alt="Live project"
               height={25}
               width={25}
@@ -56,7 +56,12 @@ export default function Project({
         ) : null}
         {source ? (
           <Link href={source}>
-            <Image src="/link.svg" alt="Source link" height={20} width={20} />
+            <Image
+              src="/images/link.svg"
+              alt="Source link"
+              height={20}
+              width={20}
+            />
           </Link>
         ) : null}
       </div>
