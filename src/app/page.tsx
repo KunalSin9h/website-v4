@@ -3,6 +3,8 @@ import ListItems from "./ListItem";
 import Project from "./Project";
 import Link from "next/link";
 import { Righteous } from "@next/font/google";
+import BoxGradient from "./BoxGradient";
+import Bash from "./Base";
 
 const righteous = Righteous({
   subsets: ["latin"],
@@ -15,13 +17,25 @@ export default function Page(): JSX.Element {
       <div>
         <HeroTitleWithDarkButton text="Kunal Singh" />
         <p className="mx-2 text-center text-sm dark:text-white md:text-xl">
-          Hi there 👋, my name is Kunal and I&apos;m currently pursuing a degree
-          in Computer Science and Engineering. I do full stack web development,
-          using technologies like React, NextJS, TailwindCSS, and TypeScript.
-          I&apos;m also passionate about cloud computing and databases (Backend
-          in other words), and I enjoy using C++ for competitive programming and
-          Python for scripting. I love contributing to open-source software
-          development. Thanks for reading!
+          Hi there 👋, my name is <BoxGradient text="Kunal" />
+          and I&apos;m currently pursuing a degree in{" "}
+          <BoxGradient
+            text="Computer Science and
+          Engineering"
+          />
+          . I do <BoxGradient text="Full Stack Web Development" />, using
+          technologies like <BoxGradient text="React" />,{" "}
+          <BoxGradient text="NextJS" />, <BoxGradient text="TailwindCSS" />, and
+          <BoxGradient text="TypeScript" />. I&apos;m also passionate about
+          <BoxGradient text="Cloud computing and Databases" />
+          (Backend in other words), and I enjoy using <BoxGradient text="C++" />{" "}
+          for competitive programming and <BoxGradient text="Python" /> for
+          scripting. I love contributing to{" "}
+          <BoxGradient text="Open-Source Software Development" />. Thanks for
+          reading!
+          <br />
+          <br />
+          <Bash text="curl -s https://kunalsin9h.dev/who | bash" />
         </p>
       </div>
       <section className="mx-auto my-8 block max-w-xs space-y-3 rounded-lg bg-white from-slate-600 to-slate-800 p-6 shadow-xl ring-1 ring-slate-900/5  transition hover:rotate-6  dark:bg-gradient-to-r  dark:ring-1 dark:ring-black">
