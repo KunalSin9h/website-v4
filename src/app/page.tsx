@@ -33,9 +33,6 @@ export default function Page(): JSX.Element {
           scripting. I love contributing to{" "}
           <BoxGradient text="Open-Source Software Development" />. Thanks for
           reading!
-          <br />
-          <br />
-          <Bash text="curl -s https://kunalsin9h.dev/who | bash" />
         </p>
       </div>
       <section className="mx-auto my-8 block max-w-xs space-y-3 rounded-lg bg-white from-slate-600 to-slate-800 p-6 shadow-xl ring-1 ring-slate-900/5  transition hover:rotate-6  dark:bg-gradient-to-r  dark:ring-1 dark:ring-black">
