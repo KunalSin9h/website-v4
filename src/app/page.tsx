@@ -57,13 +57,6 @@ export default function Page(): JSX.Element {
             src="/images/mail.png"
             alt="Email logo"
           />
-          <Link href="/blog">
-            <p
-              className={`${righteous.className} ml-2 text-2xl font-bold hover:text-slate-500 dark:text-white dark:hover:text-slate-300`}
-            >
-              /blog
-            </p>
-          </Link>
         </ul>
       </section>
       <section>
@@ -112,13 +105,6 @@ export default function Page(): JSX.Element {
             />
           </div>
         </div>
-      </section>
-      <section>
-        <p
-          className={`${righteous.className} mx-4 text-4xl font-extrabold dark:text-white`}
-        >
-          Blogs
-        </p>
       </section>
     </>
   );
