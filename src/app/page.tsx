@@ -106,6 +106,8 @@ export default function Page(): JSX.Element {
           </div>
         </div>
       </section>
+      <br />
+      <br />
     </>
   );
 }
