@@ -103,6 +103,12 @@ export default function Page(): JSX.Element {
               desc="Discord bot for college programming club's discord server"
               source="https://github.com/KunalSin9h/coptit-bot"
             />
+            <Project
+              logo="/project-images/reloader-icon.png"
+              name="Reloader"
+              desc="Browser Extension for reloading window on interval"
+              source="https://github.com/KunalSin9h/reloader"
+            />
           </div>
         </div>
       </section>
