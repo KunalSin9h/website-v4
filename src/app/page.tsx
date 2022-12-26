@@ -108,6 +108,7 @@ export default function Page(): JSX.Element {
               name="Reloader"
               desc="Browser Extension for reloading window on interval"
               source="https://github.com/KunalSin9h/reloader"
+              live="https://addons.mozilla.org/en-US/firefox/addon/window-reloader/"
             />
           </div>
         </div>
