@@ -68,12 +68,11 @@ export default function Page(): JSX.Element {
         <div className="my-4 flex items-center justify-center">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Project
-              banner="/project-images/znip-banner.png"
-              logo="/project-images/znip-logo.png"
-              name="znip"
-              desc="znip is the best way to use and manage your snippets"
-              live="https://znip.web.app"
-              source="https://github.com/znip-in"
+              banner="/project-images/tiddi-banner.png"
+              name="Tiddi"
+              desc="Tiddi is self hosted image server written in go"
+              live="https://tiddi.kunalsin9h.dev"
+              source="https://github.com/kunalsin9h/tiddi"
             />
             <Project
               banner="/project-images/commit-banner.gif"
