@@ -74,13 +74,6 @@ intro "          I love contributing to open-source software development"
 intro ""
 intro ""
 
-info      "          ${Magenta}Project${Color_Off}"
-info_bold "          I am currently building ${Bold_Green}znip${Color_Off}, it is a snippet management tool which makes storing and"
-info      "          using code snippets easier."
-info_bold "          You can checkout: ${Cyan}https://znip.web.app${Color_Off}"
-info ""
-
-
 info      "          ${Magenta}Connect${Color_Off}"
 info_bold "          Email: kunal@kunalsin9h.dev"
 info_bold "          GitHub: ${Cyan}https://github.com/KunalSin9h${Color_Off}"
