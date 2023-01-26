@@ -25,10 +25,9 @@ export default function Page(): JSX.Element {
           />
           . I do <BoxGradient text="Full Stack Web Development" />, using
           technologies like <BoxGradient text="React" />,{" "}
-          <BoxGradient text="NextJS" />, <BoxGradient text="TailwindCSS" />, and
-          <BoxGradient text="TypeScript" />. I&apos;m also passionate about
-          <BoxGradient text="Cloud computing and Databases" />
-          (Backend in other words), and I enjoy using <BoxGradient text="C++" />{" "}
+          <BoxGradient text="NextJS" />, <BoxGradient text="TailwindCSS" />,
+          <BoxGradient text="TypeScript" /> and <BoxGradient text="Go" />. I&apos;m also passionate about
+          <BoxGradient text="Cloud computing, Backend and Databases" />, and I enjoy using <BoxGradient text="C++" />{" "}
           for competitive programming and <BoxGradient text="Python" /> for
           scripting. I love contributing to{" "}
           <BoxGradient text="Open-Source Software Development" />. Thanks for
