@@ -26,10 +26,11 @@ export default function Page(): JSX.Element {
           . I do <BoxGradient text="Full Stack Web Development" />, using
           technologies like <BoxGradient text="React" />,{" "}
           <BoxGradient text="NextJS" />, <BoxGradient text="TailwindCSS" />,
-          <BoxGradient text="TypeScript" /> and <BoxGradient text="Go" />. I&apos;m also passionate about
-          <BoxGradient text="Cloud computing, Backend and Databases" />, and I enjoy using <BoxGradient text="C++" />{" "}
-          for competitive programming and <BoxGradient text="Python" /> for
-          scripting. I love contributing to{" "}
+          <BoxGradient text="TypeScript" /> and <BoxGradient text="Go" />.
+          I&apos;m also passionate about
+          <BoxGradient text="Cloud computing, Backend and Databases" />, and I
+          enjoy using <BoxGradient text="C++" /> for competitive programming and{" "}
+          <BoxGradient text="Python" /> for scripting. I love contributing to{" "}
           <BoxGradient text="Open-Source Software Development" />. Thanks for
           reading!
         </p>
@@ -56,6 +57,9 @@ export default function Page(): JSX.Element {
             src="/images/mail.png"
             alt="Email logo"
           />
+          <p className="text-md ml-3 font-bold">
+            <a href="https://articles.kunalsin9h.dev">/Articles</a>
+          </p>
         </ul>
       </section>
       <section>
