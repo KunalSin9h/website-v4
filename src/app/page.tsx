@@ -57,7 +57,7 @@ export default function Page(): JSX.Element {
             src="/images/mail.png"
             alt="Email logo"
           />
-          <p className="text-md ml-3 font-bold">
+          <p className="text-md ml-3 font-bold dark:text-white">
             <a href="https://articles.kunalsin9h.dev">/Articles</a>
           </p>
         </ul>
