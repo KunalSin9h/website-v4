@@ -67,7 +67,7 @@ bold_success "                                                  "
 
 intro "          Hey there, I'm Kunal a 2nd-year Computer Science and Engineering Student."
 intro "          I do full stack web development, using technologies like React,"
-intro "          NextJS, TailwindCSS, and TypeScript."
+intro "          NextJS, TailwindCSS, TypeScript and Go."
 intro "          I'm also passionate about cloud computing and databases (Backend in other words)."
 intro "          I enjoy using C++ for competitive programming and Python for scripting. "
 intro "          I love contributing to open-source software development"
