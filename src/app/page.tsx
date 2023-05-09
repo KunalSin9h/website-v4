@@ -103,7 +103,7 @@ export default function Page(): JSX.Element {
               logo="/project-images/coptit-logo.png"
               name="Coptit Discord Bot"
               desc="Discord bot for college programming club's discord server"
-              source="https://github.com/KunalSin9h/coptit-bot"
+              source="https://github.com/KunalSin9h/git-coptit-bot"
             />
             <Project
               logo="/project-images/reloader-icon.png"
