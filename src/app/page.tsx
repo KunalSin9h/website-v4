@@ -43,7 +43,7 @@ export default function Page(): JSX.Element {
             alt="GitHub logo"
           />
           <ListItems
-            url="https://twitter.com/kunalsin9h"
+            url="https://twitter.com/intent/user?screen_name=kunalsin9h"
             src="/images/twitter.png"
             alt="Twitter logo"
           />
