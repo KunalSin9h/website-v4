@@ -53,12 +53,12 @@ export default function Page(): JSX.Element {
             alt="LinkedIn logo"
           />
           <ListItems
-            url="mailto:kunal@kunalsin9h.dev"
+            url="mailto:kunal@kunalsin9h.com"
             src="/images/mail.png"
             alt="Email logo"
           />
           <p className="text-md ml-3 font-bold dark:text-white">
-            <a href="https://articles.kunalsin9h.dev">/Articles</a>
+            <a href="https://articles.kunalsin9h.com">/Articles</a>
           </p>
         </ul>
       </section>
@@ -74,7 +74,7 @@ export default function Page(): JSX.Element {
               banner="/project-images/tiddi-banner.png"
               name="Tiddi"
               desc="Tiddi is self hosted image server written in go"
-              live="https://tiddi.kunalsin9h.dev"
+              live="https://tiddi.kunalsin9h.com"
               source="https://github.com/kunalsin9h/tiddi"
             />
             <Project

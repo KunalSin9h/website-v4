@@ -4,7 +4,7 @@ https://keybase.io/kunalsin9h
 
 I hereby claim:
 
-  * I am an admin of https://kunalsin9h.dev
+  * I am an admin of https://kunalsin9h.com
   * I am kunalsin9h (https://keybase.io/kunalsin9h) on keybase.
   * I have a public key ASAMGGlmrzYPX1Cxk5gWkxWF4d_ZOrh7u3XzloVKCsWPQAo
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "entropy": "3TsuKwelNjCsVQZ6Glzk1U/l",
-      "hostname": "kunalsin9h.dev",
+      "hostname": "kunalsin9h.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
