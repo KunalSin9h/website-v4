@@ -75,7 +75,7 @@ intro ""
 intro ""
 
 info      "          ${Magenta}Connect${Color_Off}"
-info_bold "          Email: kunalsin9h@gmail.com"
+info_bold "          Email: kunal@kunalsin9h.com"
 info_bold "          GitHub: ${Cyan}https://github.com/KunalSin9h${Color_Off}"
 info_bold "          Tiwtter: ${Cyan}https://twitter.com/KunalSin9h${Color_Off}"
 info ""
