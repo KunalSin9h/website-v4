@@ -53,7 +53,7 @@ export default function Page(): JSX.Element {
             alt="LinkedIn logo"
           />
           <ListItems
-            url="mailto:kunalsin9h@gmail.com"
+            url="mailto:kunal@kunalsin9h.com"
             src="/images/mail.png"
             alt="Email logo"
           />
